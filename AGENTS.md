@@ -64,6 +64,11 @@ When asked to create or edit office documents, use the appropriate skill:
 - `/pdf` — PDF tasks (merge/split/OCR/creation)
 - `/xlsx` — Spreadsheets and tabular data
 
+**Skill Architecture:**
+- `.agents/skills/` — Skill definitions for Opencode agent system
+- `.claude/skills/` — Symlinks to `.agents/skills/` for Claude Code access
+- Each skill directory contains `SKILL.md` with implementation details and `scripts/` for utilities
+
 Expected behavior:
 
 1. Use the correct skill for the document type.

@@ -44,6 +44,8 @@ This project uses Claude Code skills to generate documents. Use the appropriate 
 - `/pdf` - Work with PDF files including creation, merging, splitting, OCR
 - `/xlsx` - Create or manipulate spreadsheets
 
+**Skill Storage:** Skills are stored in `.agents/skills/` (for Opencode) and symlinked in `.claude/skills/` (for Claude Code). Each skill has a `SKILL.md` file with detailed documentation.
+
 When document generation is requested, Claude will typically:
 
 1. Use the appropriate skill to generate the document
