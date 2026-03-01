@@ -201,25 +201,6 @@ Content Studio works with tools you may already have:
 - **[Claude Code](https://claude.ai/code)** — Anthropic's AI CLI
 - **OpenCode** — Compatible AI assistant
 
-### Quick Setup
-
-**Node.js packages** (install in project scope):
-
-```bash
-npm install <package>
-```
-
-**Python scripts** (using `uv` for speed):
-
-```bash
-uv run <script.py>
-uv add <package>
-```
-
-**That's it.** No complex setup. No steep learning curve.
-
----
-
 ## Built on Trusted Sources
 
 Content Studio curates the best agent skills from proven repositories:
