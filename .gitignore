@@ -1,4 +1,20 @@
 .DS_Store
+
+# Ignore node modules and generated files
 node_modules/
 *js
 *json
+
+#scripts
+*ps1
+
+# Generated Office files
+*.docx
+*.xlsx
+*.pptx
+
+# Generated PDF files
+*.pdf
+
+# Resources files (user-specific)
+resources/*
