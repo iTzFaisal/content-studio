@@ -4,6 +4,7 @@
 node_modules/
 *js
 *json
+!skills-lock.json
 
 #scripts
 *ps1
