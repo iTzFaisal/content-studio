@@ -3,16 +3,11 @@
 # Ignore node modules and generated files
 node_modules/
 *js
-*json
-!skills-lock.json
+__pycache__/
+venv/
 
 #scripts
 *ps1
-
-# Generated Office files
-*.docx
-*.xlsx
-*.pptx
 
 # Generated PDF files
 *.pdf
